@@ -1,0 +1,87 @@
+LEARNING OBJECTIVES
+To achieve the grade of 12, students should meet the following learning objectives only with no or minor mistakes or errors. By the end of
+the course the students will be able to:
+1. Explain the concepts, models and methods introduced during the course.
+2. Identify and perform an academically founded forecasting analysis in practice (including taking relevant theoretical relationships
+into account) using the tools introduced during the course.
+3. Discuss and solve any important problems encountered in relation to the analysis.
+4. Evaluate the forecasts of the analysis.
+5. Report/communicate the results and conclusion of the analysis both if the reader is a statistician/econometrician and if the reader
+is e.g. a CEO.
+6. Evaluate a forecasting analysis conducted by another person/researcher.
+7. Use a statistical analysis software package for the analysis (e.g. R or SAS) and demonstrate that you can interpret and evaluate the
+output from the software package.
+Thomas Einfeldt, 2026 4
+EXAMINATION (SELECTED POINTS)
+Thomas Einfeldt, 2026 5
+▪ Examination form Oral exam on the basis of a written product (the report), produced by a group of 3–4 people
+▪ Individual or group exam Individual exam, based on the group’s report
+▪ Size of written product Max. 15 pages
+▪ Assignment type Group take-home project
+▪ Report subject Subject chosen by the groups themselves
+▪ Duration Report to be submitted on specified date and time.
+▪ Grading scale 7-point grading scale
+▪ Examiner(s) Two internal examiners
+▪ Exam period Summer
+▪ Re-take Same examination form as the ordinary exam. Students can submit a revised report.
+IN ESSENCE
+▪ Deadline for hand-in of report 29 May 2026 (12:00), group hand-in on Digital Exam
+▪ Length of report: 15 page essay (we will not read anything that exceeds 15 pages)
+▪ Group: 3–4 group members
+▪ Oral exam: 16 – 19 June 2026
+▪ Requirements: Find and use your own time series data.
+Analyze your time series with at least 2 methods among the ones presented in the course.
+Produce forecasts and discuss results.
+(Based on statistical methods, i.e., not judgmental forecasts)
+The report should be self-explanatory: Everything you consider relevant should be in the
+main body (output, figures, tables). The code can be placed in the appendix, but this is not
+essential.
+Use R for analysis.
+Window before the exam: You can email teachers in the course if you have questions about the exam. However, we
+will not answer any emails the last two weeks before the deadline.
+Thomas Einfeldt, 2026 6
+ONE POSSIBLE WAY TO STRUCTURE A FORECAST REPORT
+Thomas Einfeldt, 2026 7
+▪ Introduction
+Present the problem (what, why, how)
+▪ Literature review
+Optional
+▪ Data
+Source, frequency, main characteristics, stationarity, seasonality, need for transformation, structural breaks etc.
+▪ Methodology – introduction of methods used, and prior assumptions (what, why, how)
+▪ Presentation and discussion of results – tables and graphs with a focus on the interpretation of results and implications
+▪ Conclusions
+No need to include code in the main body, unless you think it’s relevant. You are also welcome to include code chunks in the appendix.
+THINGS TO CONSIDER
+Thomas Einfeldt, 2026 8
+1. The number of observation should be enough to be able to forecast.
+2. Data should be original, i.e. do not investigate the unemployment rate in the US or things that we have repeatedly seen in
+class/workshops/assignments.
+3. A “bad” forecast (fx, unreliable large confidence intervals) will not affect your grade as long as your methodology is sound.
+(However, a bad forecast might indicate that you did something wrong or you did not use a suitable model.)
+4. Do not spend too much space explaining the methodology (e.g. what is an AR1 model). Instead, explain why the chosen
+methodology is right for the issue at hand (e.g. the AR1 model can describe this data because it has this and that characteristic).
+Also, you can/should discuss why your model is preferable to other models (e.g. the ETS model can describe this data better than X
+because …).
+5. All forecast models are equivalent. You do not need to use a VAR with a GETS procedure to get 12. Most forecasts will probably be
+based on:
+A. ARIMA
+B. ETS
+C. Time series regression
+D. Including dynamic regression
+E. VAR
+- with/without seasonality
+WHAT WILL BE EVALUATED
+Thomas Einfeldt, 2026 9
+1. Your forecast methodology is motivated by the evidence in your data.
+2. The methodology is presented correctly.
+3. All relevant analytical steps are included.
+4. Steps are in the right order.
+5. Steps are discussed in a meaningful way.
+6. The conclusion aligns with the evidence in steps 1-3.
+7. The overall quality of the analysis, including overall “readability” of your report.
+WHAT WILL NOT EVALUATED
+Thomas Einfeldt, 2026 10
+1. The type of data and their characteristics.
+2. Difficulty of the methods employed.
+3. Whether your forecasts are “good” or “bad” (as long as your methodology is correct).
