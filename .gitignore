@@ -1,0 +1,16 @@
+# Exports (the notebook renders on GitHub)
+*.html
+*.pdf
+
+# Raw download; the notebook reads the cleaned CSV
+*.xlsx
+
+# R / Jupyter
+.Rhistory
+.RData
+.Rproj.user/
+.ipynb_checkpoints/
+
+# Editor / OS
+.vscode/
+.DS_Store
